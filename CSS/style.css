@@ -55,7 +55,6 @@ header {
   height: 3px;
   background-color: rgb(34, 123, 255);
   position: absolute;
-  margin-top: -20px;
   margin-left: 20px;
 }
 .header-list li {
