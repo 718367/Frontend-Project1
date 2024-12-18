@@ -49,18 +49,23 @@ header {
 }
 .header-list {
   float: right;
+  height: 100%;
 }
 .line1 {
   width: 50px;
   height: 3px;
   background-color: rgb(34, 123, 255);
   position: absolute;
+  z-index: 10;
+  margin-top: -20px;
   margin-left: 20px;
 }
 .header-list li {
   display: inline-block;
   text-align: center;
   position: relative;
+  height: 100%;
+
 }
 .header-list li a {
   text-align: center;
@@ -74,7 +79,7 @@ header {
   font-weight: bold;
   font-size: 17px;
 }
-.header-list li a:hover {
+.header-list li :hover {
   background-color: rgb(34, 123, 255);
   /*font-size: 18px;*/
 }
